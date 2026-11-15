@@ -1,0 +1,12 @@
+.git
+.gitignore
+.venv
+__pycache__
+*.pyc
+*.ipynb
+.ipynb_checkpoints
+data/
+test.py
+test_service.py
+requirements-dev.txt
+README.md

@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "==1.26.4"
+pandas = "==2.2.2"
+scikit-learn = "==1.5.1"
+xgboost = "==2.1.1"
+fastapi = "==0.112.0"
+uvicorn = "==0.30.6"
+pydantic = "==2.8.2"
+requests = "==2.32.3"
+
+[dev-packages]
+matplotlib = "==3.9.2"
+seaborn = "==0.13.2"
+jupyter = "==1.0.0"
+nbconvert = "==7.16.4"
+ipykernel = "==6.29.5"
+
+[requires]
+python_version = "3.12"
